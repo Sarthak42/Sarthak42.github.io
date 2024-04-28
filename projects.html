@@ -96,117 +96,85 @@
 				</ul>
 
 			</ul>
-				
+			
+			<hr>	
 		</nav>
 
 		<section class="main container">
-			<hr>
-				<h6>Typography</h6>
-				<hr/>
-
-				<p>Type is all set with the <code>rems</code>, so font-sizes and spacial relationships can be responsively sized based on a single <code>&lt;html&gt;</code> font-size property. Out of the box, Skeleton never changes the <code>&lt;html&gt;</code> font-size, but it's there in case you need it for your project. All measurements are still base 10 though so, an <code>&lt;h1&gt;</code> with <code>5.0rem</code>font-size just means <code>50px</code>.</p>
-
-				<h1>Heading<span> <code>&lt;h1&gt;</code> 50rem</span></h1>
-			            <h2>Heading<span> <code>&lt;h2&gt;</code> 42rem</span></h2>
-			            <h3>Heading<span> <code>&lt;h3&gt;</code> 36rem</span></h3>
-			            <h4>Heading<span> <code>&lt;h4&gt;</code> 30rem</span></h4>
-			            <h5>Heading<span> <code>&lt;h5&gt;</code> 24rem</span></h5>
-			            <h6>Heading<span> <code>&lt;h6&gt;</code> 15rem</span></h6>
-
-			            <br/><br/><br/>
-
-			            <h6>Buttons</h6>
-				<hr/>
-
-				<p>Buttons come in two basic flavors in Skeleton. The standard <code>&lt;button&gt;</code> element is plain, whereas the <code>.button-primary</code> button is vibrant and prominent. Button styles are applied to a number of appropriate form elements, but can also be arbitrarily attached to anchors with a <code>.button</code> class.</p>
-
-			 	
-			            <a class="button" href="#">Anchor button</a>
-			            <button>Button element</button>
-			            <input type="submit" value="submit input">
-			            <input type="button" value="button input">
-
-			            <br/>
-
-			            <a class="button button-primary" href="#">Anchor button</a>
-				<button class="button-primary">Button element</button>
-				<input class="button-primary" type="submit" value="submit input">
-				<input class="button-primary" type="button" value="button input">
-
-				<br/><br/><br/>
-
-				<h6>Lists</h6>
-				<hr/>
-
-				<div class="row">
-
-					<div class="six columns">
-						<ul>
-							<li>Unordered lists have basic styles</li>
-							<li>
-							They use the circle list style
-								<ul>
-									<li>Nested lists styled to feel right</li>
-									<li>Can nest either type of list into the other</li>
-								</ul>
-							</li>
-							<li>Just more list items mama san</li>
-						</ul>
+			
+			<article class="article">
+				<header>	
+				<div class="meta-data">
+						<h3><a href="#">Project 1</a></h3>
+						<p class="author">
+						<time datetime="2015-08-07">November 17th, 2015</time>
+						</p>
 					</div>
-					<div class="six columns">
-						<ol>
-						<li>Ordered lists also have basic styles</li>
-						<li>
-						They use the decimal list style
-							<ul>
-								<li>Ordered and unordered can be nested</li>
-								<li>Can nest either type of list into the other</li>
-							</ul>
-						</li>
-						<li>Last list item just for the fun</li>
-						</ol>
-					</div>
+				</header>
+
+				<div class="entry-content" id="info">
+	
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate eros ac posuere efficitur. Nunc bibendum cursus convallis. Praesent aliquam gravida lacus, a pharetra lorem dignissim ac. Vivamus at elit quam. Proin eu libero vel dolor bibendum lacinia.</p>
+
+					<p>Type is all set with the <code>rems</code>, so font-sizes and spacial relationships can be responsively sized based on a single <code>&lt;html&gt;</code> font-size property. Out of the box, Skeleton never changes the <code>&lt;html&gt;</code> font-size, but it's there in case you need it for your project. All measurements are still base 10 though so, an <code>&lt;h1&gt;</code> with <code>5.0rem</code>font-size just means <code>50px</code>.</p>
+
+					<p>Buttons come in two basic flavors in Skeleton. The standard <code>&lt;button&gt;</code> element is plain, whereas the <code>.button-primary</code> button is vibrant and prominent. Button styles are applied to a number of appropriate form elements, but can also be arbitrarily attached to anchors with a <code>.button</code> class.</p>
+
+					<p>Code styling is kept basic – just wrap anything in a <code>&lt;code&gt;</code> and it will appear like <code>this</code>. For blocks of code, wrap a <code>&lt;code&gt;</code> with a <code>&lt;pre&gt;</code>.</p>
+
+					<p>Paragraph with <strong>bold</strong>, <i>italic</i> and <a href="#">link</a> styles.</p>					
 				</div>
 
-				<br/><br/><br/>
+				<footer>
+					<ul class="tags">
+						<li><a href="#" class="tag">HTML</a></li>
+						<li><a href="#" class="tag">CSS</a></li>
+						<li><a href="#" class="tag">JavaScript</a></li>
+						<li><a href="#" class="tag">Sketch 3</a></li>
+						<li><a href="#" class="tag">Kirby</a></li>
+					</ul>
+				</footer>
+			</article>
+			<!-- <article class="article">
+				<header>	
+				<div class="meta-data">
+						<h3><a href="#">Project 1</a></h3>
+						<p class="author">
+						<time datetime="2015-08-07">November 17th, 2015</time>
+						</p>
+					</div>
+				</header>
 
-				<h6>Code</h6>
-				<hr/>
+				<div class="entry-content" id="info">
+	
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate eros ac posuere efficitur. Nunc bibendum cursus convallis. Praesent aliquam gravida lacus, a pharetra lorem dignissim ac. Vivamus at elit quam. Proin eu libero vel dolor bibendum lacinia.</p>
 
-				<p>Code styling is kept basic – just wrap anything in a <code>&lt;code&gt;</code> and it will appear like <code>this</code>. For blocks of code, wrap a <code>&lt;code&gt;</code> with a <code>&lt;pre&gt;</code>.</p>
+					<p>Type is all set with the <code>rems</code>, so font-sizes and spacial relationships can be responsively sized based on a single <code>&lt;html&gt;</code> font-size property. Out of the box, Skeleton never changes the <code>&lt;html&gt;</code> font-size, but it's there in case you need it for your project. All measurements are still base 10 though so, an <code>&lt;h1&gt;</code> with <code>5.0rem</code>font-size just means <code>50px</code>.</p>
 
-				<pre>
-					<code>
-.some-class {
-	background-color: red;
-}
-					</code>
-				</pre>
+					<p>Buttons come in two basic flavors in Skeleton. The standard <code>&lt;button&gt;</code> element is plain, whereas the <code>.button-primary</code> button is vibrant and prominent. Button styles are applied to a number of appropriate form elements, but can also be arbitrarily attached to anchors with a <code>.button</code> class.</p>
+
+					<p>Code styling is kept basic – just wrap anything in a <code>&lt;code&gt;</code> and it will appear like <code>this</code>. For blocks of code, wrap a <code>&lt;code&gt;</code> with a <code>&lt;pre&gt;</code>.</p>
+
+					<p>Paragraph with <strong>bold</strong>, <i>italic</i> and <a href="#">link</a> styles.</p>					
+				</div>
+
+				<footer>
+					<ul class="tags">
+						<li><a href="#" class="tag">HTML</a></li>
+						<li><a href="#" class="tag">CSS</a></li>
+						<li><a href="#" class="tag">JavaScript</a></li>
+						<li><a href="#" class="tag">Sketch 3</a></li>
+						<li><a href="#" class="tag">Kirby</a></li>
+					</ul>
+				</footer>
+			</article> -->
 
 		</section>
-
-		<!-- Footer -->
-		<!-- <footer>
-			<div class="inner">
-				<div class="container">
-					<div class="copyright">
-						<span class="sub">Distributed By: <a class="" href="https://htmltemplates.co" target="_blank">HTMLtemplates.co</a></span>
-					</div>
-
-
-					<a href="#0" class="backtotop">Top</a>
-
-
-				</div>
-			</div>
-		</footer> -->
-
-
 		<script src="js/scripts.js"></script>
 
 		<script>
 		
-			$('article #info').readmore({
+			$('.article #info').readmore({
 				speed: 600,
 				moreLink: '<a class="button-text" href="#">Read More <span>&darr;</span></a>',
 				lessLink: '<a class="button-text" href="#">Read Less <span>&uarr;</span></a>',
@@ -220,6 +188,7 @@
 			});
 
 	  	</script>
+
 
 	</body>
 
